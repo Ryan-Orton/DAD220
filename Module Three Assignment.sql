@@ -40,22 +40,16 @@ WHERE Employee.Department_ID = 4;
 
 -- Insert multiple employee records into the Employee table
 INSERT INTO Employee VALUES
-    (100, 'John', 'Smith', 1, 'Exempt', 'Full-Time', 90000),
-    (101, 'Mary', 'Jones', 2, 'Non-Exempt', 'Part-Time', 35000),
-    (102, 'Mary', 'Williams', 3, 'Exempt', 'Full-Time', 80000),
-    (103, 'Gwen', 'Johnson', 4, NULL, 'Full-Time', 40000),
-    (104, 'Michael', 'Jones', 4, 'Non-Exempt', 'Full-Time', 90000),
-    (105, 'YourFirstName', 'YourLastName', 1, 'Non-Exempt', 'Full-Time', 65000),
-    (106, 'Famous', 'Character', 2, 'Exempt', 'Part-Time', 75000),
-    (107, 'Jane', 'Doe', 1, 'Exempt', 'Full-Time', 70000),
-    (108, 'Sam', 'Smith', 2, 'Non-Exempt', 'Part-Time', 45000),
-    (109, 'Alice', 'Brown', 3, 'Exempt', 'Full-Time', 80000),
-    (110, 'Bob', 'Taylor', 4, 'Non-Exempt', 'Full-Time', 50000),
-    (111, 'Chris', 'Evans', 1, 'Exempt', 'Full-Time', 72000),
-    (112, 'Emma', 'Watson', 2, 'Non-Exempt', 'Part-Time', 48000),
-    (113, 'Robert', 'Downey', 3, 'Exempt', 'Full-Time', 85000),
-    (114, 'Scarlett', 'Johansson', 4, 'Non-Exempt', 'Full-Time', 51000),
-    (115, 'Tom', 'Holland', 1, 'Exempt', 'Full-Time', 76000);
+    (107, 'Amanda', 'Atkinson', 1, 'Exempt', 'Full-Time', 90000),
+    (108, 'Michael', 'Summerson', 2, 'Non-Exempt', 'Part-Time', 35000),
+    (109, 'Brina', 'Anderson', 3, 'Exempt', 'Full-Time', 80000),
+    (110, 'Trevor', 'Lenke', 1, 'Non-Exempt', 'Full-Time', 95000),
+    (111, 'Phillip', 'Joneston', 2, 'Non-Exempt', 'Full-Time', 91000),
+    (112, 'Mary', 'Wilson', 3, 'Exempt', 'Full-Time', 80000),
+    (113, 'Johnny', 'Cooney', 2, 'Non-Exempt', 'Full-Time', 93000),
+    (114, 'Christopher', 'Nolan', 2, 'Non-Exempt', 'Full-Time', 99000),
+    (115, 'Mel', 'Miller', 3, 'Exempt', 'Full-Time', 80000),
+    (116, 'Scott', 'Fisher', 3, 'Exempt', 'Full-Time', 80000);
 
 -- Select all records from the Employee table to verify data
 SELECT * FROM Employee;
